@@ -1,0 +1,24 @@
+.button-sidebar {
+  margin: 32px 20px 0;
+  padding: 0;
+  width: 200px;
+  height: 52px;
+  display: flex;
+  background-color: #005ff8;
+  color: #ffffff;
+  border-radius: 4px;
+}
+.button-sidebar__text {
+  margin: 13px 17px 15px 24px;
+  font-weight: 500;
+  font-size: 16px;
+  width: 115px;
+  line-height: 24px;
+}
+.button-sidebar__image {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin: 14px 20px 14px 0;
+  text-align: center;
+}

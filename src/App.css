@@ -1,0 +1,7 @@
+.App {
+  /* text-align: center; */
+  width: 1920px;
+  height: auto;
+  display: flex;
+  font-family: 'SF Pro Display', Arial, Helvetica, sans-serif;
+}

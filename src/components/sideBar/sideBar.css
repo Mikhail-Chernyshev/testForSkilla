@@ -1,0 +1,12 @@
+.sidebar {
+  position: relative;
+  width: 240px;
+  background-color: #091336;
+}
+.sidebar__logo {
+  margin: 20px 0 32px 12px;
+  padding: 0;
+  font-size: 28px;
+  line-height: 30px;
+  color: #ffd500;
+}
