@@ -1,0 +1,40 @@
+.calls {
+  width: 1440px;
+  height: auto;
+  margin: 0 120px 0;
+  padding: 0;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+.calls__bar {
+  height: 16px;
+  width: 1360px;
+  margin: 24px 40px 21px;
+  display: flex;
+}
+.calls__element {
+  height: 16px;
+  color: #899cb1;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0;
+  line-height: 14px;
+}
+.calls__element_type {
+  margin-right: 30px;
+}
+.calls__element_time {
+  margin-right: 48px;
+}
+.calls__element_who {
+  margin-right: 60px;
+}
+.calls__element_number {
+  margin-right: 281px;
+}
+.calls__element_from {
+  margin-right: 154px;
+}
+.calls__element_quality {
+  margin-right: 414px;
+}

@@ -11,7 +11,7 @@ export default function SideBar() {
       <ElementSideBar name='Итоги' image={image} />
       <ElementSideBar name='Заказы' image={image} />
       <ElementSideBar name='Сообщения' image={image} />
-      <ElementSideBar name='Звонки' image={image} />
+      <ElementSideBar name='Звонки' status='active' image={image} />
       <ElementSideBar name='Контрагенты' image={image} />
       <ElementSideBar name='Документы' image={image} />
       <ElementSideBar name='Исполнители' image={image} />
