@@ -1,5 +1,5 @@
 .call {
-  margin: 0 40px;
+  margin: 0 0 0 40px;
   width: auto;
   min-height: 64px;
   color: #899cb1;
@@ -42,9 +42,10 @@
 .call__quality {
   width: 122px;
   height: 40px !important;
-  margin: 12px 390px 13px 0 !important;
+  margin: 12px 10px 13px 0 !important;
 }
 .call__longer {
   color: #122945 !important;
-  margin: 21px 0 23px 0 !important;
+  margin: 21px 0 23px 380px !important;
 }
+

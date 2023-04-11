@@ -4,6 +4,8 @@ import insideCall from '../../../../images/insideCall.svg';
 import outsideCall from '../../../../images/outsideCall.svg';
 import insideMissedCall from '../../../../images/insideMissedCall.svg';
 import outsideMissedCall from '../../../../images/outsideMissedCall.svg';
+import Player from './Player/Player';
+import { getRecord } from '../../../../utils/api';
 
 export default function Call({
   type,
@@ -14,7 +16,11 @@ export default function Call({
   error,
   duration,
   status,
+  record,
+  partnerId,
 }) {
+
+  console.log(record);
   let imagee;
   const typeImage = (status, type) => {
     if (status === 'Не дозвонился' && type === 1) {
@@ -45,16 +51,24 @@ export default function Call({
         {timeCall}
       </p>
       <img
-        // alt='сотрудник фото'
+        // alt='сотрудникa фото'
         src={avatar}
         className='calls__element calls__who call__who'
       />
       <p className='calls__element calls__number call__number'>{phone}</p>
       <p className='calls__element calls__from call__from'>{source}</p>
       <p className='calls__element calls__quality call__quality'>{error}</p>
-      <p className='calls__element calls__longer call__longer'>
-        {showDuration}
-      </p>
+      {record !== '' ? (
+        <Player
+          duration={showDuration}
+          record={record}
+          partnerId={partnerId}
+        />
+      ) : (
+        <p className='calls__element calls__longer call__longer'>
+          {showDuration}
+        </p>
+      )}
     </div>
   );
 }
