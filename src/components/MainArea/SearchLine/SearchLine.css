@@ -8,7 +8,7 @@
   width: 482px;
   height: 48px;
   display: flex;
-  margin: 0 205px 0 0;
+  margin: 0 365px 0 0;
 }
 .searchline__icon-search {
   width: 16px;
@@ -41,7 +41,7 @@
   width: 121px !important;
 }
 .searchline__select-calls {
-  width: 91px !important;
+  width: 100px !important;
 }
 .searchline__select-from {
   width: 113px !important;
@@ -50,5 +50,5 @@
   width: 93px !important;
 }
 .searchline__select-error {
-  width: 96px !important;
+  width: 162px !important;
 }

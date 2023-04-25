@@ -2,14 +2,20 @@ import React from 'react';
 import './SearchLine.css';
 import iconSearch from '../../../images/search.svg';
 
-export default function SearchLine({
-  data,
-  showData,
-  setshowData,
-  typeCalls,
-  settypeCalls,
-}) {
+export default function SearchLine({ data, settypeCalls }) {
   function handleChangeSelectType(event) {
+    settypeCalls(event.target.value);
+    console.log(event.target.value);
+  }
+  function handleChangeSelectError(event) {
+    settypeCalls(event.target.value);
+    console.log(event.target.value);
+  }
+  function handleChangeSpringType(event) {
+    settypeCalls(event.target.value);
+    console.log(event.target.value);
+  }
+  function handleChangeErrorType(event) {
     settypeCalls(event.target.value);
     console.log(event.target.value);
   }
@@ -24,18 +30,7 @@ export default function SearchLine({
         />
         <p className='searchline__search-area'>Поиск по звонкам</p>
       </div>
-      <select className='searchline__select searchline__select-type'>
-        <option value='all' className='searchline__type-all'>
-          Все типы
-        </option>
-        <option value='income' className='searchline__type-income'>
-          Входящие
-        </option>
-        <option value='outcome' className='searchline__type-outcome'>
-          Исходящие
-        </option>
-      </select>
-      <select className='searchline__select searchline__select-staff'>
+      {/* <select className='searchline__select searchline__select-staff'>
         <option value='all' className='searchline__staff-all'>
           Все сотрудники
         </option>
@@ -45,7 +40,7 @@ export default function SearchLine({
         <option value='middle' className='searchline__staff-old'>
           Опытные
         </option>
-      </select>
+      </select> */}
       <select
         onChange={handleChangeSelectType}
         className='searchline__select searchline__select-calls'
@@ -60,7 +55,10 @@ export default function SearchLine({
           Исходящие
         </option>
       </select>
-      <select className='searchline__select searchline__select-from'>
+      <select
+        onChange={handleChangeSpringType}
+        className='searchline__select searchline__select-from'
+      >
         <option value='all' className='searchline__from-all'>
           Все источники
         </option>
@@ -71,7 +69,10 @@ export default function SearchLine({
           Google
         </option>
       </select>{' '}
-      <select className='searchline__select searchline__select-quality'>
+      <select
+        onChange={handleChangeSelectError}
+        className='searchline__select searchline__select-quality'
+      >
         <option value='all' className='searchline__quality-all'>
           Все оценки
         </option>
@@ -82,7 +83,7 @@ export default function SearchLine({
           Плохие
         </option>
       </select>
-      <select className='searchline__select searchline__select-error'>
+      <select onChange={handleChangeErrorType} className='searchline__select searchline__select-error'>
         <option value='all' className='searchline__error-all'>
           Все ошибки
         </option>
