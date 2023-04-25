@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/testForSkilla/static/css/main.0512d575.css",
+    "main.js": "/testForSkilla/static/js/main.a4be9b3b.js",
+    "static/js/845.0033691d.chunk.js": "/testForSkilla/static/js/845.0033691d.chunk.js",
+    "static/media/SFProDisplay-Medium.woff2": "/testForSkilla/static/media/SFProDisplay-Medium.22a99d36f90cc52d2914.woff2",
+    "index.html": "/testForSkilla/index.html",
+    "static/media/search.svg": "/testForSkilla/static/media/search.5c256363d20308b8e6b5d885f1798174.svg",
+    "static/media/iconPlay.svg": "/testForSkilla/static/media/iconPlay.2b66ae989e9969d17ad3adee174d061c.svg",
+    "static/media/icon-calendar.svg": "/testForSkilla/static/media/icon-calendar.0946190fab09dbb5d0f9e1c21f22d4a7.svg",
+    "static/media/outsideCall.svg": "/testForSkilla/static/media/outsideCall.3dcdf08697f437f3b849b99c0c0eb9cd.svg",
+    "static/media/outsideMissedCall.svg": "/testForSkilla/static/media/outsideMissedCall.0633b95ae2e7c0b9b4339515df0ea85f.svg",
+    "static/media/icon-balance.svg": "/testForSkilla/static/media/icon-balance.e68f9c611aa32d5ea97cb514453f6025.svg",
+    "static/media/insideCall.svg": "/testForSkilla/static/media/insideCall.7301c6e923712ed881db43da9ba49e06.svg",
+    "static/media/insideMissedCall.svg": "/testForSkilla/static/media/insideMissedCall.56303f7625e0365fd7fe6d012804dc20.svg",
+    "static/media/icon-down.svg": "/testForSkilla/static/media/icon-down.785b6f7ef662a72882e6.svg",
+    "static/media/download.svg": "/testForSkilla/static/media/download.d4f4d5ff09345cc524c8.svg",
+    "static/media/downloadHover.svg": "/testForSkilla/static/media/downloadHover.222bc33b3dd687806886.svg",
+    "static/media/icon-right.svg": "/testForSkilla/static/media/icon-right.e4d833d4f9d15be98155f48511efad64.svg",
+    "static/media/icon-left.svg": "/testForSkilla/static/media/icon-left.f850d09f95c068c3ac075947e271ffac.svg",
+    "main.0512d575.css.map": "/testForSkilla/static/css/main.0512d575.css.map",
+    "main.a4be9b3b.js.map": "/testForSkilla/static/js/main.a4be9b3b.js.map",
+    "845.0033691d.chunk.js.map": "/testForSkilla/static/js/845.0033691d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0512d575.css",
+    "static/js/main.a4be9b3b.js"
+  ]
+}
